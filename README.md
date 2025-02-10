@@ -2,6 +2,13 @@
 
 ## Overview
 SMS Spam Detection is a machine learning model that takes an SMS as input and predicts whether the message is a spam or not spam message. The model is built using Python and deployed on the web using Streamlit.
+Updated CSV file and enhanced model which led to : 
+✅ Accuracy: 0.9744435284418796
+✅ Precision: 0.9755211161901838
+✅ Recall: 0.9744435284418796
+✅ F1 Score: 0.9743774343100848
+
+
 
 
 
@@ -14,7 +21,7 @@ SMS Spam Detection is a machine learning model that takes an SMS as input and pr
 
 ### Data Collection
 The SMS Spam Collection dataset was collected from Kaggle, which contains over 5,500 SMS messages labeled as either spam or not spam.
-You can access the dataset from [here](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+You can access the dataset from [here](https://drive.google.com/file/d/1z8An-ODTxb87e0o6upy3byT440H8ZLwU/view?usp=share_link)
 
 ### Data Cleaning and Preprocessing
 The data was cleaned by handling null and duplicate values, and the "type" column was label-encoded. The data was then preprocessed by converting the text into tokens, removing special characters, stop words and punctuation, and stemming the data. The data was also converted to lowercase before preprocessing.
